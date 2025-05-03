@@ -2,13 +2,13 @@
     "version": 2,
     "builds": [
         {
-            "scr": "main.js",
+            "src": "main.js",
             "use": "@vercel/mode"
         }
     ],
     "routes":[
         {
-            "scr": "/(.*)",
+            "src": "/(.*)",
             "dest": "main.js"
             
         }
