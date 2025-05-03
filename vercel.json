@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "scr": "main.js",
+            "use": "@vercel/mode"
+        }
+    ],
+    "routed":[
+        {
+            "scr": "/(.*)",
+            "dest": "main.js"
+            
+        }
+    ]
+}
