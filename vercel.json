@@ -6,7 +6,7 @@
             "use": "@vercel/mode"
         }
     ],
-    "routed":[
+    "routes":[
         {
             "scr": "/(.*)",
             "dest": "main.js"
